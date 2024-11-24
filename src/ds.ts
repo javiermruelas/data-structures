@@ -15,7 +15,6 @@ export class CustomArray<T> {
     this.size = 0;
   }
 
-  // Array methods
   push(element: T): void {}
   pop(): T | undefined {
     return undefined;
@@ -34,7 +33,6 @@ export class CustomArray<T> {
     return 0;
   }
 
-  // Queue operations
   enqueue(element: T): void {}
   dequeue(): T | undefined {
     return undefined;
@@ -43,7 +41,6 @@ export class CustomArray<T> {
     return undefined;
   }
 
-  // Stack operations
   stackPush(element: T): void {}
   stackPop(): T | undefined {
     return undefined;
@@ -108,7 +105,6 @@ export class LinkedList<T> {
     this.size = 0;
   }
 
-  // LinkedList methods
   append(value: T): void {}
   prepend(value: T): void {}
   delete(value: T): boolean {
@@ -133,7 +129,6 @@ export class LinkedList<T> {
     return [];
   }
 
-  // Queue operations
   enqueue(value: T): void {}
   dequeue(): T | undefined {
     return undefined;
@@ -142,7 +137,6 @@ export class LinkedList<T> {
     return undefined;
   }
 
-  // Stack operations
   push(value: T): void {}
   pop(): T | undefined {
     return undefined;
