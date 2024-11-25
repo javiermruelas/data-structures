@@ -6,50 +6,6 @@
  * Heaps - after trees
  */
 
-export class CustomArray<T> {
-  private items: T[];
-  private size: number;
-
-  constructor() {
-    this.items = [];
-    this.size = 0;
-  }
-
-  push(element: T): void {}
-  pop(): T | undefined {
-    return undefined;
-  }
-  get(index: number): T {
-    return this.items[index];
-  }
-  set(index: number, element: T): void {}
-  remove(index: number): T {
-    return this.items[index];
-  }
-  isEmpty(): boolean {
-    return false;
-  }
-  getSize(): number {
-    return 0;
-  }
-
-  enqueue(element: T): void {}
-  dequeue(): T | undefined {
-    return undefined;
-  }
-  peek(): T | undefined {
-    return undefined;
-  }
-
-  stackPush(element: T): void {}
-  stackPop(): T | undefined {
-    return undefined;
-  }
-  stackPeek(): T | undefined {
-    return undefined;
-  }
-}
-
 export class HashMap<K, V> {
   private buckets: Array<Array<[K, V]>>;
   private size: number;
